@@ -1,0 +1,9 @@
+[
+  {
+    "ticket_id": "T-1004",
+    "old_category": "bug_report",
+    "new_category": "bug_report",
+    "old_priority": "high",
+    "new_priority": "urgent"
+  }
+]
