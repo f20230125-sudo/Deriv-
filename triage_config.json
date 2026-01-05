@@ -1,0 +1,26 @@
+{
+  "allowed_categories": [
+    "billing_issue",
+    "account_access",
+    "product_how_to",
+    "bug_report",
+    "other"
+  ],
+  "allowed_priorities": [
+    "urgent",
+    "high",
+    "normal",
+    "low"
+  ],
+  "reply_style": {
+    "tone": "clear, polite, concise",
+    "max_words": 80
+  },
+  "routing_rules": {
+    "billing_issue": "payments_queue",
+    "account_access": "trust_and_access_queue",
+    "product_how_to": "general_support_queue",
+    "bug_report": "technical_queue",
+    "other": "manual_review_queue"
+  }
+}
