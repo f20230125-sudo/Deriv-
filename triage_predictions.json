@@ -1,0 +1,38 @@
+[
+  {
+    "ticket_id": "T-1001",
+    "category": "billing_issue",
+    "priority": "high",
+    "reason": "The customer was charged twice for a single deposit and requires a reversal.",
+    "suggested_reply": "Hello. Thank you for reaching out regarding the duplicate charge on your account. I have escalated this issue to our payments team to investigate and process the reversal for the extra charge as quickly as possible. We apologize for the inconvenience and will update you shortly.",
+    "route_to": "payments_queue",
+    "confidence": 0.98
+  },
+  {
+    "ticket_id": "T-1002",
+    "category": "account_access",
+    "priority": "urgent",
+    "reason": "The user is locked out of their account right before market open.",
+    "suggested_reply": "Hello. We understand the urgency of regaining access before market open. Please check your inbox for a secure password reset link or try clearing your app cache. If the issue persists, let us know and we will assist you immediately.",
+    "route_to": "trust_and_access_queue",
+    "confidence": 0.99
+  },
+  {
+    "ticket_id": "T-1003",
+    "category": "product_how_to",
+    "priority": "normal",
+    "reason": "The user is asking for instructions on how to export their transaction history to CSV.",
+    "suggested_reply": "Hello. To export your transaction history, please log in to your account, navigate to the Statements or History section, and click the Export button to download your CSV file. Please let us know if you need further assistance.",
+    "route_to": "general_support_queue",
+    "confidence": 0.97
+  },
+  {
+    "ticket_id": "T-1004",
+    "category": "bug_report",
+    "priority": "high",
+    "reason": "The mobile application consistently crashes when accessing the portfolio tab.",
+    "suggested_reply": "Hello. Thank you for reporting this issue. Our technical team is investigating the mobile app crash related to the portfolio tab. In the meantime, please try reinstalling the app. We appreciate your patience.",
+    "route_to": "technical_queue",
+    "confidence": 0.96
+  }
+]
